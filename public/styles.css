@@ -1,0 +1,89 @@
+body {
+  background-color: #545454;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+.heading {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #acb1d6;
+}
+
+form {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 60px;
+  margin-bottom: 20px;
+}
+
+.number-input label {
+  margin-right: 20px;
+}
+
+.number-input input {
+  width: 100px;
+  float: right;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.radio-input label {
+  margin-right: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  color: white;
+  background-color: #545454;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #7a7a7a;
+  cursor: pointer;
+}
+.reset {
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.multiline {
+  white-space: pre-line;
+}
