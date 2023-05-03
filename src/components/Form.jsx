@@ -21,12 +21,6 @@ const Form = function (props) {
 
   function submitData(event) {
     props.onCalc(data);
-    setData({
-      age: "",
-      gender: "",
-      height: "",
-      weight: "",
-    });
     event.preventDefault();
   }
 
