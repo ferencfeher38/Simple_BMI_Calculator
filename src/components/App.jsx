@@ -14,6 +14,7 @@ function App() {
   };
 
   const calcBMI = function (props) {
+    if ((props.weight === "") | (props.height === "")) return;
     setBMI(
       Math.round(
         (Number(props.weight) / Number(props.height * props.height)) * 100000
